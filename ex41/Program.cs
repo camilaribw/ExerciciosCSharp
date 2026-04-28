@@ -11,7 +11,9 @@ double salarioFixo = salarioMinimo * 2;
 double comissaoCarros = carrosVendidos * 50;
 double comissaoVendas = valorVendas * 0.05;
 
-string salarioTotal = salarioFixo + comissaoCarros + comissaoVendas;
+
+double salarioTotal = salarioFixo + comissaoCarros + comissaoVendas;
 
 Console.WriteLine("\n--- FOLHA DE PAGAMENTO ---");
-Console.WriteLine("Salário total: R$ " + salarioTotal);
+Console.WriteLine("Salário total: R$ " + salarioTotal.ToString("F2"));
+
